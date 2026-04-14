@@ -1,0 +1,94 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+/coverage/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# Arquivos grandes de dados / backup (não entram no Git)
+*.kml
+*.sql
+kml_data_output.txt
+storage_export.sql
+pubspec.lock
+
+# Logs e arquivos temporários de diagnóstico
+*.log
+*.txt
+ai_service.log
+build_log.txt
+testar_log.txt
+check_bucket.log
+analyze_errors.txt
+
+# Scripts de diagnóstico/correção avulsos (raiz do projeto)
+check_bucket.dart
+check_columns.py
+do_fix.py
+do_fix_pg2.py
+dump_text.py
+fix.cjs
+fix.py
+fix_accents.py
+fix_analyzer.py
+fix_chars.py
+fix_db_encoding.py
+get_bad.py
+get_raw.py
+get_runes.dart
+list_folders.dart
+raw_upload.dart
+run_check.py
+run_rich_chat_sql.py
+run_sql.py
+run_sql2.py
+test_accents.dart
+test_compilation.dart
+test_enc.py
+test_encoding.py
+test_upload.dart
+wipe_bucket.dart
+wipe_db_fotos.dart
+wipe_direct.dart
+
+# AI service local
+ai_service.log
