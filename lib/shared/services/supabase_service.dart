@@ -105,7 +105,7 @@ class SupabaseService {
       if (!linhaCache.containsKey(name)) {
         final data = await _client.from('linhas').insert({
           'nome': name,
-          'descricao': lineData['description'],
+          'observacoes': lineData['description'],
           'codigo': lineData['code'] ?? name,
         }).select().single();
         linhaCache[name] = data['id'];
