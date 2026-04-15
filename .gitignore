@@ -46,10 +46,11 @@ app.*.map.json
 
 # Arquivos grandes de dados / backup (não entram no Git)
 *.kml
-*.sql
-kml_data_output.txt
-storage_export.sql
-pubspec.lock
+/storage_export.sql
+/kml_data_output.txt
+
+# Migrations de banco SÃO incluídas no Git
+!supabase_migrations_backup/
 
 # Logs e arquivos temporários de diagnóstico
 *.log
