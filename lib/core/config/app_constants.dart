@@ -2,8 +2,8 @@ class AppConstants {
   static const String appName = 'Inspeção Aérea de Torres';
   static const String appVersion = '1.0.0';
 
-  // Supabase Producao (VPS Hostinger - 2.24.200.178)
-  static const String supabaseUrl = 'http://2.24.200.178:8000';
+  // Supabase Producao (VPS Hostinger - via proxy Nginx porta 3000)
+  static const String supabaseUrl = 'http://2.24.200.178:3000';
   static const String supabaseAnonKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlIjoiYW5vbiIsImlzcyI6InN1cGFiYXNlIiwiaWF0IjoxNzc2MjA4NTUzLCJleHAiOjIwOTE1Njg1NTN9.52djmmT8KdN2N_dkrYDCUdbV7xF_gyvL4Y7xlpR0bEU';
 
   // Storage
